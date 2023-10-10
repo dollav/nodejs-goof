@@ -11,5 +11,8 @@ RUN npm update
 RUN npm install
 EXPOSE 3001
 EXPOSE 9229
-
+EXPOSE 8443
+EXPOSE 443
+ENV API_TOKEN=mytestapitoken
+ENV My_test_change=forFun
 ENTRYPOINT ["npm", "start"]
