@@ -33,6 +33,7 @@ exports.index = function (req, res, next) {
       });
     });
 };
+//test this
 
 exports.loginHandler = function (req, res, next) {
   if (validator.isEmail(req.body.username)) {
